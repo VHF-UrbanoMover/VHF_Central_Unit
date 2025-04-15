@@ -36,90 +36,6 @@ BS_:
 BU_: VCU BMS Motor1 Motor2 CCU SCG
 
 
-BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
- SG_ MCU_DC_LinkVoltage : 0|16@1- (0.1,0) [0|0] "V"  VCU
- SG_ MCU_DC_LinkCurrent : 16|16@1- (0.1,0) [0|0] "A"  VCU
- SG_ Run_direction : 0|2@1+ (1,0) [0|0] ""  VCU
- SG_ Running_mode : 3|1@1+ (1,0) [0|0] ""  VCU
- SG_ Motor_Speed : 8|16@1- (1,0) [0|0] "rpm"  VCU
- SG_ Fault_Code : 24|8@1+ (1,0) [0|0] ""  VCU
- SG_ ConsumptionMode : 32|8@1+ (1,0) [0|0] ""  VCU
- SG_ SubtotalMileage : 40|16@1+ (0.1,0) [0|0] "km"  VCU
- SG_ MCU_DC_LinkVoltage : 0|16@1- (0.1,0) [0|0] "V"  VCU
- SG_ MCU_DC_LinkCurrent : 16|16@1- (0.1,0) [0|0] "A"  VCU
- SG_ Run_direction : 0|2@1+ (1,0) [0|0] ""  VCU
- SG_ Running_mode : 3|1@1+ (1,0) [0|0] ""  VCU
- SG_ Motor_Speed : 8|16@1- (1,0) [0|0] "rpm"  VCU
- SG_ Fault_Code : 24|8@1+ (1,0) [0|0] ""  VCU
- SG_ ConsumptionMode : 32|8@1+ (1,0) [0|0] ""  VCU
- SG_ SubtotalMileage : 40|16@1+ (0.1,0) [0|0] "km"  VCU
- SG_ IGBT_Enable_Feedback : 54|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ ActiveDischargeEnable : 53|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ MoterACCurrent : 39|16@0+ (0.1,0) [0|1000] "" Vector__XXX
- SG_ Precharge_Allow : 52|1@0+ (1,0) [0|1] "" Vector__XXX
- SG_ WorkMode : 59|4@0+ (1,0) [0|8] "" Vector__XXX
- SG_ LiveCounter0 : 63|4@0+ (1,0) [0|15] "" Vector__XXX
- SG_ MoterTorque : 23|16@0+ (1,-5000) [-5000|5000] "Nm" Vector__XXX
- SG_ MoterSpeed : 7|16@0+ (1,-15000) [-15000|15000] "rpm" Vector__XXX
- SG_ DC_voltageLiimitLow : 55|16@0+ (0.1,-750) [0|0] "" Vector__XXX
- SG_ DC_voltageLiimitHigh : 39|16@0+ (0.1,0) [0|0] "" Vector__XXX
- SG_ DC_CurrentLiimitLow : 23|16@0+ (0.1,-400) [0|0] "" Vector__XXX
- SG_ DC_CurrentLiimitHigh : 7|16@0+ (0.1,0) [0|0] "" Vector__XXX
- SG_ FailGrade : 59|4@0+ (1,0) [0|0] "" Vector__XXX
- SG_ TorqueLimitLow : 39|16@0+ (1,-5000) [-5000|0] "" Vector__XXX
- SG_ TorqueLimitHigh : 23|16@0+ (1,0) [0|5000] "Nm" Vector__XXX
- SG_ MotorTemperature : 7|8@0+ (1,-40) [-40|215] "¡æ" Vector__XXX
- SG_ LiveCounter1 : 63|4@0+ (1,0) [0|15] "" Vector__XXX
- SG_ MCUTemperature : 15|8@0+ (1,-40) [-40|215] "¡æ" Vector__XXX
- SG_ VCU_ChrageRly_Status : 5|1@0+ (1,0) [0|0] ""  BMS
- SG_ VCU_BMS_PwrCmd : 4|1@0+ (1,0) [0|1] ""  BMS
- SG_ VCU_BMS_0_Heartbeat : 3|4@0+ (1,0) [0|15] ""  BMS
- SG_ DC_CC : 3|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ AC_CC : 2|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ BMS_CellLVolt : 55|16@0+ (0.00390625,0) [0|255.99609375] "V" Vector__XXX
- SG_ BMS_CellLVoltNum : 47|8@0+ (1,0) [0|255] "" Vector__XXX
- SG_ BMS_CellHVolt : 31|16@0+ (0.00390625,0) [0|0] "V" Vector__XXX
- SG_ BMS_CellHVoltNum : 23|8@0+ (1,0) [0|255] "" Vector__XXX
- SG_ BMS_SOC : 15|8@0+ (0.5,0) [0|100] "%" Vector__XXX
- SG_ BMS_SysFltLvl : 7|3@0+ (1,0) [0|4] "" Vector__XXX
- SG_ BMS_Md : 4|1@0+ (1,0) [0|1] "" Vector__XXX
- SG_ BMS_VCU_0_Heatbeat : 1|2@0+ (1,0) [0|3] "" Vector__XXX
- SG_ LiveCounter4 : 63|4@0+ (1,0) [0|15] "" Vector__XXX
- SG_ HardwareErrorCode6 : 47|8@0+ (1,0) [0|0] "" Vector__XXX
- SG_ HardwareErrorCode5 : 39|8@0+ (1,0) [0|0] "" Vector__XXX
- SG_ HardwareErrorCode4 : 31|8@0+ (1,0) [0|0] "" Vector__XXX
- SG_ HardwareErrorCode3 : 23|8@0+ (1,0) [0|0] "" Vector__XXX
- SG_ HardwareErrorCode2 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
- SG_ HardwareErrorCode1 : 7|8@0+ (1,0) [0|0] "" Vector__XXX
- SG_ Demand_Speed : 55|16@0+ (1,-15000) [0|0] "" Vector__XXX
- SG_ Demand_Torque : 37|14@0+ (1,-5000) [0|0] "" Vector__XXX
- SG_ FaultReset : 39|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ Demand_LimitValid : 38|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ Demand_LimitLow : 19|12@0+ (4,0) [0|0] "" Vector__XXX
- SG_ Demand_LimitHigh : 15|12@0+ (4,0) [0|0] "" Vector__XXX
- SG_ Live_Counter : 7|4@0+ (1,0) [0|0] "" Vector__XXX
- SG_ Control_Mode : 3|3@0+ (1,0) [0|0] "" Vector__XXX
- SG_ MCU_Enable : 0|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ LiveCounter4 : 63|4@0+ (1,0) [0|0] "" Vector__XXX
- SG_ MotorRotationCount : 55|8@0+ (1,0) [0|0] "" Vector__XXX
- SG_ DCVoltage : 39|16@0+ (1,0) [0|65535] "" Vector__XXX
- SG_ IPMError : 8|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ UnderVoltageError : 9|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ Under12vVoltageError : 10|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ InverterOverTemperatureWarning : 11|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ WindingOverTemperatureWarning : 12|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ UnderVoltageWarning : 13|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ DC_Current : 23|16@0+ (1,-1000) [-1000|1000] "A" Vector__XXX
- SG_ OverVoltageWarning : 14|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ CANCommunicationError : 7|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ WindingTemperatureSensorError : 6|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ ResolverError : 5|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ InverterOverTemperatureError : 4|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ WindingOverTemperatureError : 3|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ OverSpeedError : 2|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ OverCurrentError : 1|1@0+ (1,0) [0|0] "" Vector__XXX
- SG_ OverVoltageError : 0|1@0+ (1,0) [0|0] "" Vector__XXX
-
 BO_ 805 BMS_CellVoltage1to8: 8 BMS
  SG_ CellVoltage1 : 0|8@1+ (0.02,0) [0|4.5] "" Vector__XXX
  SG_ CellVoltage2 : 8|8@1+ (0.02,0) [0|4.5] "" Vector__XXX
@@ -229,12 +145,6 @@ BO_ 16 VCUCommands: 8 VCU
 
 
 
-CM_ SG_ 3221225472 Run_direction "00--invalid
-01--forward
-10--back";
-CM_ SG_ 3221225472 Running_mode "1—Low speed running mode
-0-- High speed running mode";
-CM_ SG_ 3221225472 ConsumptionMode "0xAA- Low power consumption,the other is invalid";
 BA_DEF_ EV_  "GenEnvIsGeneratedDsp" ENUM  "No","Yes";
 BA_DEF_ EV_  "GenEnvMsgOffset" INT 0 2147483647;
 BA_DEF_ EV_  "GenEnvMsgName" STRING ;
